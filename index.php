@@ -1,87 +1,7 @@
-<!-- <?php
+<?php
   include ('header.php')
-  ?> -->
-  <!DOCTYPE html>
-<html lang="en">
+  ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Alpha Academy Gadchiroli">
-    <meta name="keywords"
-        content="Full stack Web Developement Course Gadchiroli, Coding Classes Gadchiroli,Alpha Academy,Alpha Academy gug">
-
-    <link rel="shortcut icon" href="/Favicon/favicon.ico" type="image/x-icon">
-    <title>Alpha Academy</title>
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-
-    <!-- CSS -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
-    <link rel="stylesheet" href="./css/vrstyle.css">
-    <link rel="stylesheet" href="css/silstyle.css" />
-
-    <!-- Script -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
-    <!-- Boxicons CSS -->
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- navbar stars -->
-    <section class="bg-light sticky">
-        <div class="container p-0 ">
-            <nav class="navbar navbar-expand-sm navbar-light m-0">
-                    <a class="navbar-brand " href="./index.php">
-                        <span>
-                            <img class="alogo" src="./assets/AlphaLogo.png" alt="alphaLogo">
-                        </span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active-nav" aria-current="page" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html#course">Course</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html#benefit">Benefits</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html#testi">Testimonials</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="digital_learning.html">Digital Learning</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="student_registration.html">Student's Registration</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-    </section>
-    
-    <!-- navbar ends -->
 <!-- Banner Open -->
     <div class="superContainer">
 
@@ -90,8 +10,8 @@
 
             <!-- bannerlogo open-->
 
-            <div class="row">
-                <img src="./assets/bannerImages/banner-Recovered.png" alt="" >
+            <div class="row pt-3 mb-5">
+                <img src="./assets/bannerImages/Banner-logo2.png" alt="" >
             </div>
             <!-- bannerlogo close -->
 
@@ -725,17 +645,17 @@
 
 
                             <!-- Ayushi Dhakate -->
-                        <div class="slide swiper-slide">
-                            <img src="./assets/reviewImages/gautami.jpg" alt="shubhamImg" class="image" />
-                            <div class="details">
-                                <span class="name">Gautami Shahare</span>
-                                <!-- <span class="job">Web Developer</span> -->
-                            </div>
-                            <p>Hello I am Gautami Shahare I am personal MBA 2nd Sem from Gondwana University Gadchiroli. Recently I joined Alpha academy for the Professional Full Stack Web Development course. It was superb experience Now I had a bunch of knowledge this course. This course is worth the teaching faculty is very supportive whenever I got problem in programming this salt easily and this course is superb. I am satisfied I hope this course will lead to the path of the success. Thank you!!
-                            </p>
+                            <div class="slide swiper-slide">
+        <img src="./assets/reviewImages/AyushiDhakate.jpg" alt="shubhamImg" class="image" />
+        <div class="details">
+            <span class="name">Ayushi Dhakate</span>
+            <!-- <span class="job">Web Developer</span> -->
+        </div>
+        <p>Hello Everyone myself Ayushi Dhakate. I'm reviewing to Alpha Academy almost after completing the Frontend Technologies. I'm really very thankful to faculty of Alpha Academy. They guide me for my btter career option and also support me to develop the Alpha Academy website. Thanks to Manish Sir for giving me this opprunity.Thank you!!
+        </p>
 
-                            <i class="bx bxs-quote-alt-left quote-icon"></i>
-                        </div>
+        <i class="bx bxs-quote-alt-left quote-icon"></i>
+    </div>
 
                             <!-- shubham chandanbawane -->
                         <div class="slide swiper-slide">
@@ -1038,18 +958,18 @@
                             <i class="bx bxs-quote-alt-left quote-icon"></i>
                         </div>
 
-                         <!--    Soma Haldar  -->
+                            <!-- Soma Haldar 
                          <div class="slide swiper-slide">
                             <img src="./assets/reviewImages/Somahaldar.jpg" alt="shubhamImg" class="image" />
                             <div class="details">
                                 <span class="name">Soma Haldar</span>
-                                <!-- <span class="job">Web Developer</span> -->
+                                <span class="job">Web Developer</span>
                             </div>
                             <p>Hello I am Anshul Gaherwar from Aarmori and I have completed diploma in Idea recently I jointed Alpha academy to learn Full Stack Web Development and Junior Software Development its very amazing to be a part of it the people here are very support you and everything is great and very discipline here I will only say that this course will take me towards success
                             </p>
 
                             <i class="bx bxs-quote-alt-left quote-icon"></i>
-                        </div>
+                        </div> -->
 
                         <!--Akash Bambole-->
                         <div class="slide swiper-slide">
@@ -1066,12 +986,12 @@
 
                         <!--Gautami Shahare-->
                         <div class="slide swiper-slide">
-                            <img src="./assets/reviewImages/gautami.jpg" alt="shubhamImg" class="image" />
+                            <img src="./assets/reviewImages/gautami.JPG" alt="shubhamImg" class="image" />
                             <div class="details">
                                 <span class="name">Gautami Shahare</span>
                                 <!-- <span class="job">Web Developer</span> -->
                             </div>
-                            <p>Hello I am Gautami Shahare I am personal MBA 2nd Sem from Gondwana University Gadchiroli. Recently I joined Alpha academy for the Professional Full Stack Web Development course. It was superb experience Now I had a bunch of knowledge this course. This course is worth the teaching faculty is very supportive whenever I got problem in programming this salt easily and this course is superb. I am satisfied I hope this course will lead to the path of the success. Thank you!!
+                            <p>Hello I am Gautami Shahare I am pursing MBA 2nd Sem from Gondwana University Gadchiroli. Recently I joined Alpha academy for the Professional Full Stack Web Development course. It was superb experience Now I had a bunch of knowledge this course. This course is worth the teaching faculty is very supportive whenever I got problem in programming this salt easily and this course is superb. I am satisfied I hope this course will lead to the path of the success. Thank you!!
                             </p>
 
                             <i class="bx bxs-quote-alt-left quote-icon"></i>
@@ -1101,68 +1021,6 @@
     </div>
 </div>
 
-    <!-- footer start-->
-    <footer>
-        <div class="container mt-3 mb-3">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.073143861082!2d79.97002457597627!3d20.172679816629117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2cfba9ded241f1%3A0x917d89c6efd48643!2sGondwana%20University!5e0!3m2!1sen!2sin!4v1681972917074!5m2!1sen!2sin" class="map"
-                            width="350" height="350" style="border:0; margin-top: 10px;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-    
-                    <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4 col-xxl-4 contact pl-5">
-                        <h2 class="mt-2 mb-2">Alpha Academy</h2>
-                        <h3 class="mt-2 mb-2">Gadchiroli(HQ)</h3>
-                        <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Address:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Gondwana University,
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            M.I.D.C.
-                            Road Complex, <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Gadchiroli-442605 <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Maharashtra, India
-                        </p>
-                        <p><i class="fa fa-phone" aria-hidden="true"></i> Contact no:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="tel:+919403050375">+919403050375</a>
-                            <!-- <br><a style="text-align: right;" href="tel:+911234567890">+911234567890</a> -->
-                            </ul>
-                        </p>
-                        <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="mailto:pankaj.nandagiriwar@learnqoch.com" style="font-size:14px">pankaj.nandagiriwar@learnqoch.com</a></p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4 col-xxl-4 pt-4 ">
-                        <a href="https://www.learnqoch.com/" target="_blank">
-                            <img style="background-color: white;" class="learn" src="./assets/learnqochLogo.png"
-                                alt="LearnQochImg"></a>
-                        <br>
-                        <!-- <a href="https://www.youtube.com/embed/tKTODZUGkwQ" target="_blank">
-                            <img class="mt-2" src="./assets/youtube.png" alt="youtubeImg" width="100px"></a> -->
-                        <br>
-                        <a href="https://play.google.com/store/apps/details?id=com.learnqoch&hl=en_IN&gl=US"
-                            target="_blank">
-                            <img src="./assets/Digital Learning/Picture2.png" alt="googlePlayImg"></a>
-                    </div>
-                </div>
-                <hr style="border-color: #eafdf1;">
-                <p class="text-center pb-3">Copyright &copy; 2023 Alpha Academy | All Rights Reversed.</p>
-        </div>
-        </footer>
-    
-    
-    <!-- </div> -->
-    
-    </body>
-    
-    </html>
-<!-- <?php
+<?php
   include ('footer.php')
-  ?> -->
+  ?>

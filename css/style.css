@@ -41,9 +41,12 @@ a:hover{
     
     color: #2162C1;
 }
-
 .active-nav{
     color:#1551b1 ;
+}
+.nav-link .apply{
+    background-color: #082E66;
+    color: white;
 }
 /* navbarends */
 
