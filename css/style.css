@@ -6,9 +6,9 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
 body {
   font-family: poppins, sans-serif;
 }
