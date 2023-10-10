@@ -6,6 +6,9 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
+/* ::-webkit-scrollbar {
+  display: none;
+} */
 body {
   font-family: poppins, sans-serif;
 }
@@ -83,6 +86,8 @@ body {
 }
 
 .nameHeading {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 0px;
@@ -91,6 +96,8 @@ body {
 }
 
 .nameSubHeading {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
   font-size: 20px;
   text-align: left;
 }
@@ -139,9 +146,11 @@ body {
 }
 
 .para {
-  color: black;
-  font-size: 18px;
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
+  color: black;
 }
 /* vision Section end */
 
@@ -176,6 +185,8 @@ body {
 }
 
 .fswdHeading {
+  width: min(100ch, 100% - 3em);
+  margin-inline: auto;
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 0px;
@@ -184,22 +195,24 @@ body {
 }
 
 .fswdDes {
-  font-size: 18px;
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
 }
 
 .fswdHeading1 {
+  width: min(100ch, 100% - 3em);
+  margin-inline: auto;
   font-weight: 600;
   text-align: justify;
   font-size: 24px;
-  /* display: flex;
-    align-items: center;
-    justify-content: center; */
-  /* margin-top: 30px; */
 }
 .fswdDes1 {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
-  font-size: 18px;
 }
 
 .imgfswd {
@@ -225,6 +238,8 @@ body {
   border-radius: 5px;
 }
 .mockHeading {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 0px;
@@ -232,11 +247,15 @@ body {
 }
 
 .mockDes {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
-  font-size: 18px;
 }
 
 .mockHeading1 {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
   color: #082e66;
   font-weight: 600;
   font-size: 22px;
@@ -245,57 +264,54 @@ body {
 }
 
 .mockDes1 {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
-  font-size: 18px;
 }
 /* mock interview section ends */
 
 /* learning outcomes section */
 
 .loHeading {
+  width: min(100ch, 100% - 3em);
+  margin-inline: auto;
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 0px;
   text-align: justify;
 }
 .loDes {
-  font-size: 18px;
-  text-align: center;
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
 }
 .loHeading1 {
+  width: min(100ch, 100% - 3em);
+  margin-inline: auto;
   color: #082e66;
   font-weight: 600;
   text-align: justify;
   font-size: 24px;
-  /* display: flex;
-    align-items: center;
-    justify-content: center; */
-  /* margin-top: 30px; */
 }
 .loDes1 {
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
-  font-size: 18px;
 }
 
 /* benefits section */
-/* .nav-pills {
-    --bs-nav-pills-border-radius: var(--bs-border-radius);
-    --bs-nav-pills-link-active-color:white;
-    --bs-nav-pills-link-active-bg: #082E66;
-   
-      }
-      .navButton{
-        box-shadow: 4px 4px 10px lightblue;
-        margin: 10px;
-      } */
 .beneHeading {
   color: navy;
   font-weight: 700;
 }
 .benePara {
-  font-size: 18px;
-  font-weight: 500;
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
+  text-align: justify;
 }
 .beneBack {
   /* width: 50%; */
@@ -306,9 +322,10 @@ body {
 
 /* block level section */
 .blDes {
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
+  width: min(100ch, 100% - 4em);
+  margin-inline: auto;
+  font-size: clamp(1em, 2vw, 1.2em);
+  text-align: justify;
 }
 .blmap {
   height: 250px;
@@ -423,7 +440,6 @@ footer {
   color: white;
   padding: 20px;
   padding-bottom: 0px;
-  /* text-align:s center; */
   margin-top: 20px;
   background-color: #2f6cc5;
 }
@@ -433,7 +449,6 @@ footer hr {
 .contact {
   margin-top: 10px;
   text-align: left;
-  /* padding-left: 70px; */
 }
 .contact ul {
   list-style: none;
@@ -452,6 +467,28 @@ i {
   padding: 5px;
   border-radius: 50%;
   margin-right: 5px;
+}
+/* Whatsapp Support CSS */
+.whatsappSupport {
+  position: fixed;
+  top: min(100vh - 4em);
+  left: min(100vw - 4em);
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: green;
+}
+.whatsappSupport .fa {
+  font-size: 60px;
+  color: white;
+}
+.whatsappSupport i {
+  margin-right: 0px;
 }
 
 /* media query for max-width 600px */
@@ -494,7 +531,7 @@ i {
 
   .row1 {
     display: flex;
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
   }
   .mockHeading .mockHeading1 {
     margin-top: 100px;
@@ -529,44 +566,43 @@ i {
   .testimonial {
     padding: 0px;
   }
-  .flogo{
+  .flogo {
     padding-left: 50px;
   }
-  .contact{
+  .contact {
     padding-left: 50px;
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width:768px){
-    .map{
-        padding-left: 70px;
-    }
-    .flogo{
-        padding-left: 70px;
-    }
-    .contact{
-      padding-left: 70px;
-    }
-    .nameHeading, .nameSubHeading, .para{
-      text-align: center;
-    }
-    .row2 {
-      display: flex;
-      flex-direction: column-reverse
-    }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .map {
+    padding-left: 70px;
+  }
+  .flogo {
+    padding-left: 70px;
+  }
+  .contact {
+    padding-left: 70px;
+  }
+  .nameHeading,
+  .nameSubHeading,
+  .para {
+    text-align: center;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
-@media only screen and (min-device-width: 480px) 
-                   and (max-device-width: 640px) 
-                   and (orientation: landscape) {
-                    .map {
-                      width: 300px;
-                      padding-left: 50px;
-                    }
-                    .flogo{
-                      padding-left: 50px;
-                    }
-                    .contact{
-                      padding-left: 50px;
-                    }
-
+@media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
+  .map {
+    width: 300px;
+    padding-left: 50px;
+  }
+  .flogo {
+    padding-left: 50px;
+  }
+  .contact {
+    padding-left: 50px;
+  }
 }
