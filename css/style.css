@@ -326,7 +326,9 @@ body {
   margin-inline: auto;
   font-size: clamp(1em, 2vw, 1.2em);
   text-align: justify;
+  text-align: center;
 }
+
 .blmap {
   height: 250px;
 }
@@ -453,7 +455,7 @@ footer hr {
 .contact ul {
   list-style: none;
 }
-a {
+.contact a {
   text-decoration: none;
   color: white;
 }
@@ -483,9 +485,10 @@ i {
   border-radius: 50%;
   background: green;
 }
-.whatsappSupport .fa {
-  font-size: 60px;
+.whatsappSupport a{
+  font-size: 25px;
   color: white;
+  
 }
 .whatsappSupport i {
   margin-right: 0px;
