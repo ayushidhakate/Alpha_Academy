@@ -13,6 +13,11 @@ body {
   font-family: poppins, sans-serif;
 }
 
+img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto;    /* Maintain aspect ratio */
+}
+
 /* navbar opens  */
 .superContainer {
   max-width: 1400px;
